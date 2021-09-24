@@ -8,24 +8,54 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+<body>
+  
 
+<!-- This is my Header -->
+<header>
+  <h1>
+    Karim's Porfolio
+  </h1>
   <nav>
-    <ul class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/karim-gomez-b762059b/" target="_blank">LinkedIn</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/kgomez1990" target="_blank">GitHub</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./images/My Resume.pdf">Resume</a>
-      </li>
-    </ul>
+    <a href="#about">About Me</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact Me</a>
+    <a class="nav-link" href="./assets/ Resume.pdf" target="_blank">Resume</a>
   </nav>
+</header>
 
-  <div class="container">
+<!-- Hero Area -->
+
+<section class="heroBanner">
+  <div>
+    <h2>
+      I love to code!
+    </h2>
+  </div>
+</section>
+
+<main class="pageWrapper">
+  <section class="pageSection" id="about">
+    <h2>
+      About Me
+    </h2>
+    <div>
+      <p>
+        Welcome to Karim's Profile! Karim has always excelled at everything he has put his mind to.
+        He has exibited hard work
+        and
+        dedication
+        to his craft at every level he has been at. He has continued to triump throughout his life regardless of
+        obstacles put in front of him. he will make a great employee regardless of who he may end up with.
+      </p>
+    </div>
+  </section>
+</main>
+
+  <!-- <div class="container">
     <div class='container-header'>
       <h2 id="header">Karim's Portfolio Page!</h2>
       <p class="bio-summary">Welcome to Karim's Profile! Karim has always excelled at everything he has put his mind to.
@@ -36,40 +66,70 @@
         obstacles put in front of him. he will make a great employee regardless of who he may end up with.
       </p>
     </div>
-  </div>
+  </div> -->
 
-  <section>
-    <div class="card" style="width: 24rem;" id="top-card">
-      <div class="card-body">
-        <h5 class="card-title">Capitol Properties</h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="https://kgomez1990.github.io/CapitolProperties/" class="card-link" target="_blank">Click to view
-          Capitol Properties page</a>
-        <a href="https://github.com/kgomez1990/CapitolProperties" class="card-link" target="_blank">Click to view my
-          Profile!</a>
-      </div>
+  <section class="pageSection" id="work">
+    <h2>
+      Work
+    </h2>
+    <div class="flex-container">
+      <a href="https://kgomez1990.github.io/CapitolProperties/" target="_blank" class="flexItem capital">
+        <div>
+          <h3>Capitol Properties</h3>
+          <span>HTML/CSS/Javascript</span>
+          <a href="https://github.com/kgomez1990/CapitolProperties" target="_blank">Github Repo</a>
+        </div>
+      </a>
+
+      <a href="https://kgomez1990.github.io/KarimWeatherApp/" target="_blank" class="flexItem weather">
+        <div>
+          <h3>My Weather App</h3>
+          <span>HTML/CSS/Javascript</span>
+          <a href="https://github.com/kgomez1990/KarimWeatherApp" target="_blank">Github Repo</a>
+        </div>
+      </a>
+
+      <a href="https://desolate-harbor-35577.herokuapp.com/" target="_blank" class="flexItem lightbulb">
+        <div>
+          <h3>LightBulb</h3>
+          <span>MVC/Express/Bulma/NodeJS/MySQL</span>
+          <a href="https://github.com/kgomez1990/Light-Bulb" target="_blank">Github Repo</a>
+        </div>
+      </a>
+
+      <a href="https://kgomez1990.github.io/Karimsnotetaker/" target="_blank" class="flexItem note">
+        <div>
+          <h3>My Note Taker</h3>
+          <span>NodeJs/Express</span>
+          <a href="https://github.com/kgomez1990/Karimsnotetaker" target="_blank">Github Repo</a>
+        </div>
+      </a>
+
+      <a href="https://kgomez1990.github.io/KarimReadMeGenerator/" target="_blank" class="flexItem readme">
+        <div>
+          <h3>ReadMe Generator</h3>
+          <span></span>
+          <a href="https://github.com/kgomez1990/KarimReadMeGenerator" target="_blank">Github Repo</a>
+        </div>
+      </a>
+
     </div>
-
-
-    <div class="card" style="width: 24rem;" id="bottom-card">
-      <div class="card-body">
-        <h5 class="card-title">Karim's Weather App</h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="https://kgomez1990.github.io/KarimWeatherApp/" class="card-link" target="_blank">Click to view my
-          Weather App!</a>
-        <a href="https://github.com/kgomez1990/KarimWeatherApp" class="card-link" target="_blank">Click to view my
-          Profile!</a>
-      </div>
-    </div>
+ 
   </section>
 
-  <footer>
-    <p id="contactMe">To contact Me, Please email Karim.gomez29@yahoo.com or give me a call at (347) 860-7118</p>
-  </footer>
+    <!-- This is my contact info -->
+  <section class="pageSection contact" id="contact">
+    <h2>
+      Contact Me
+    </h2>
+    <div>
+      <address>
+        <a href="mailto:karim.gomez29@yahoo.com" target="_blank">Karim.Gomez29@yahoo.com</a>
+        <a href="https://github.com/kgomez1990" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/karim-gomez-b762059b/" target="_blank">Linkedin</a>
+      </address>
+    </div>
+  </section>
 
   </body>
 
