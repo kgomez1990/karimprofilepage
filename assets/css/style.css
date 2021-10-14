@@ -86,7 +86,7 @@ main {
 
 .heroBanner {
     background-color: slategray;
-    background-image: url("https://images.unsplash.com/photo-1606163898426-17652048c548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80") linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/beautiful-waterfall.jpg") linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -200,9 +200,18 @@ main {
  /* Work Portfolio contact Images  */
 
  .capital {
-     background-image: url("");
+     background-image: url("../images/beautiful-Greenery.png");
  }
 
- /* Media Queries */
+ .weather {
+     background-image: url('../images/beautiful-waterfall.jpg');
+ }
 
- 
+ /* Media Queries
+
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .flexItem {
+      width: 100%;
+    }
+  }
