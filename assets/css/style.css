@@ -188,15 +188,8 @@ main {
     font-size: 1.6rem;
 }
  /* Do the Contact Address */
-
  /* Contact Address a */
-#contact a {
-
-}
  /* Contact Address a Hover */
-#contact a:hover {
-
-}
  /* Work Portfolio contact Images  */
 
  .capital {
@@ -205,6 +198,18 @@ main {
 
  .weather {
      background-image: url('../images/beautiful-waterfall.jpg');
+ }
+
+ .lightbulb {
+     background-image: url('../images/forest-river.jpg');
+ }
+
+ .note {
+     background-image: url('../images/Rainforest.jpg');
+ }
+
+ .readme {
+     background-image: url('../images/Small-River.jpg');
  }
 
  /* Media Queries
